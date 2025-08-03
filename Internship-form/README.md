@@ -17,7 +17,7 @@ This internship application form collects user information like name, email, age
 
 ## 🚀 Live Demo
 
-👉 [View Live Project](fcc-internship-form.netlify.app) 
+👉 [View Live Project](https://fcc-internship-form.netlify.app) 
 👉 [GitHub Repo](https://github.com/chauhandigvijay1/fcc-rwd-mine-projects)
 
 ## ✅ Built With
