@@ -20,10 +20,11 @@ The tribute page is a responsive webpage dedicated to **Chandrashekhar Singh**, 
 - Minimal, distraction-free reading experience
 
 ---
-
 ## 🚀 Live Demo
 
-👉[Here](fcc-rwd-tribute-page.netlify.app)
+👉 [Click to View Tribute Page Live](https://fcc-rwd-tribute-page.netlify.app)  
+👉 [GitHub Repo](https://github.com/chauhandigvijay1/fcc-rwd-mine-projects)
+
 
 ---
 
