@@ -23,8 +23,7 @@ The tribute page is a responsive webpage dedicated to **Chandrashekhar Singh**, 
 
 ## 🚀 Live Demo
 
-👉 _Coming Soon_  
-👉 [GitHub Repo](https://github.com/chauhandigvijay1/fcc-rwd-mine-projects)
+👉[Here](fcc-rwd-tribute-page.netlify.app)
 
 ---
 
