@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <nav id="navbar">
+        <header>HTML & CSS Guide</header>
+        <a class="nav-link" href="#Introduction_to_HTML">Introduction to HTML</a>
+        <a class="nav-link" href="#HTML_Elements_and_Tags">HTML Elements and Tags</a>
+        <a class="nav-link" href="#CSS_Fundamentals">CSS Fundamentals</a>
+        <a class="nav-link" href="#CSS_Selectors_and_Properties">CSS Selectors and Properties</a>
+        <a class="nav-link" href="#Responsive_Web_Design">Responsive Web Design</a>
+        <a class="nav-link" href="#Best_Practices">Best Practices</a>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction_to_HTML">
+            <header>Introduction to HTML</header>
+            <p>HTML (HyperText Markup Language) is the standard markup language used to create web pages. It provides the basic structure and content of websites by using a system of elements and tags to define different parts of a document.</p>
+            
+            <p>HTML was first developed by Tim Berners-Lee in 1990 and has evolved through several versions. The latest version, HTML5, introduced many new features and semantic elements that make web development more efficient and accessible.</p>
+
+            <div class="highlight">
+                <p>HTML is not a programming language but a markup language that uses tags to structure content. Every web page you see on the internet is built with HTML as its foundation.</p>
+            </div>
+
+            <p>A basic HTML document structure looks like this:</p>
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;My First Web Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Welcome to HTML!&lt;/h1&gt;
+    &lt;p&gt;This is my first paragraph.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+            <p>Key concepts in HTML include:</p>
+            <ul>
+                <li>Elements are the building blocks of HTML pages</li>
+                <li>Tags are keywords enclosed in angle brackets</li>
+                <li>Attributes provide additional information about elements</li>
+                <li>Semantic markup improves accessibility and SEO</li>
+                <li>Proper nesting and hierarchy are essential</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="HTML_Elements_and_Tags">
+            <header>HTML Elements and Tags</header>
+            <p>HTML elements are defined by tags, which are keywords enclosed in angle brackets. Most elements have an opening tag and a closing tag, with content placed between them. Understanding the proper use of different HTML elements is crucial for creating well-structured web pages.</p>
+
+            <p>HTML elements can be categorized into different types based on their purpose and behavior. Block-level elements take up the full width available and start on a new line, while inline elements only take up as much width as necessary.</p>
+
+            <div class="code-example">
+                <h4>Common HTML Elements:</h4>
+                <pre><code>&lt;!-- Headings --&gt;
+&lt;h1&gt;Main Title&lt;/h1&gt;
+&lt;h2&gt;Section Title&lt;/h2&gt;
+&lt;h3&gt;Subsection Title&lt;/h3&gt;
+
+&lt;!-- Text Elements --&gt;
+&lt;p&gt;This is a paragraph of text.&lt;/p&gt;
+&lt;strong&gt;Bold text&lt;/strong&gt;
+&lt;em&gt;Emphasized text&lt;/em&gt;
+
+&lt;!-- Links and Images --&gt;
+&lt;a href="https://example.com"&gt;Visit Example&lt;/a&gt;
+&lt;img src="image.jpg" alt="Description"&gt;</code></pre>
+            </div>
+
+            <p>HTML5 introduced semantic elements that provide meaning to the structure:</p>
+            <pre><code>&lt;header&gt;
+    &lt;nav&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/nav&gt;
+&lt;/header&gt;
+
+&lt;main&gt;
+    &lt;article&gt;
+        &lt;section&gt;
+            &lt;h2&gt;Article Title&lt;/h2&gt;
+            &lt;p&gt;Article content goes here.&lt;/p&gt;
+        &lt;/section&gt;
+    &lt;/article&gt;
+    &lt;aside&gt;
+        &lt;p&gt;Sidebar content&lt;/p&gt;
+    &lt;/aside&gt;
+&lt;/main&gt;
+
+&lt;footer&gt;
+    &lt;p&gt;&copy; 2024 My Website&lt;/p&gt;
+&lt;/footer&gt;</code></pre>
+
+            <p>Important HTML elements include:</p>
+            <ul>
+                <li><code>&lt;div&gt;</code> and <code>&lt;span&gt;</code> for generic containers</li>
+                <li><code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;footer&gt;</code> for page structure</li>
+                <li><code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;aside&gt;</code> for content organization</li>
+                <li><code>&lt;form&gt;</code>, <code>&lt;input&gt;</code>, <code>&lt;button&gt;</code> for user interaction</li>
+                <li><code>&lt;table&gt;</code>, <code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code> for structured data</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="CSS_Fundamentals">
+            <header>CSS Fundamentals</header>
+            <p>CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation and formatting of HTML documents. CSS controls the visual appearance of web pages, including colors, fonts, layouts, spacing, and responsive design.</p>
+
+            <p>CSS works by selecting HTML elements and applying style rules to them. The "cascading" nature means that styles can inherit from parent elements and can be overridden by more specific rules.</p>
+
+            <div class="highlight">
+                <p>CSS separates content from presentation, allowing you to maintain consistent styling across multiple pages and making websites easier to maintain and update.</p>
+            </div>
+
+            <p>There are three ways to include CSS in your HTML:</p>
+            <pre><code>&lt;!-- 1. Inline CSS --&gt;
+&lt;p style="color: blue; font-size: 16px;"&gt;Blue text&lt;/p&gt;
+
+&lt;!-- 2. Internal CSS --&gt;
+&lt;head&gt;
+    &lt;style&gt;
+        p {
+            color: red;
+            font-family: Arial, sans-serif;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;!-- 3. External CSS --&gt;
+&lt;head&gt;
+    &lt;link rel="stylesheet" href="styles.css"&gt;
+&lt;/head&gt;</code></pre>
+
+            <p>Basic CSS syntax consists of selectors, properties, and values:</p>
+            <pre><code>/* CSS Rule Structure */
+selector {
+    property: value;
+    another-property: another-value;
+}
+
+/* Example */
+h1 {
+    color: #333;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}</code></pre>
+
+            <p>Key CSS concepts include:</p>
+            <ul>
+                <li>Selectors target specific HTML elements</li>
+                <li>Properties define what aspect of the element to style</li>
+                <li>Values specify how the property should be styled</li>
+                <li>The box model controls spacing and layout</li>
+                <li>Cascading and specificity determine which styles apply</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="CSS_Selectors_and_Properties">
+            <header>CSS Selectors and Properties</header>
+            <p>CSS selectors are patterns used to target and select HTML elements for styling. Understanding different types of selectors and their specificity is essential for effective CSS development and avoiding styling conflicts.</p>
+
+            <p>CSS provides various types of selectors, each with different levels of specificity. Learning when and how to use each selector type will help you write more maintainable and efficient stylesheets.</p>
+
+            <div class="code-example">
+                <h4>Common CSS Selectors:</h4>
+                <pre><code>/* Element Selector */
+p { color: black; }
+
+/* Class Selector */
+.highlight { background-color: yellow; }
+
+/* ID Selector */
+#header { font-size: 24px; }
+
+/* Descendant Selector */
+nav ul li { display: inline-block; }
+
+/* Child Selector */
+article > p { margin-bottom: 15px; }
+
+/* Pseudo-classes */
+a:hover { color: red; }
+input:focus { border-color: blue; }
+
+/* Attribute Selectors */
+input[type="email"] { width: 100%; }
+a[href^="https"] { color: green; }</code></pre>
+            </div>
+
+            <p>Common CSS properties for styling and layout:</p>
+            <pre><code>/* Typography */
+.text-styles {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.6;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Colors and Backgrounds */
+.colors {
+    color: #333333;
+    background-color: #f0f0f0;
+    background-image: url('pattern.png');
+    opacity: 0.8;
+}
+
+/* Box Model */
+.box-model {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    margin: 10px auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Layout */
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    float: left;
+}</code></pre>
+
+            <p>Essential CSS properties categories:</p>
+            <ul>
+                <li>Typography: <code>font-family</code>, <code>font-size</code>, <code>font-weight</code>, <code>line-height</code></li>
+                <li>Colors: <code>color</code>, <code>background-color</code>, <code>opacity</code></li>
+                <li>Box Model: <code>width</code>, <code>height</code>, <code>padding</code>, <code>margin</code>, <code>border</code></li>
+                <li>Layout: <code>display</code>, <code>position</code>, <code>float</code>, <code>flexbox</code>, <code>grid</code></li>
+                <li>Visual Effects: <code>box-shadow</code>, <code>border-radius</code>, <code>transform</code>, <code>transition</code></li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Responsive_Web_Design">
+            <header>Responsive Web Design</header>
+            <p>Responsive web design is an approach that ensures web pages render well on various devices and screen sizes. With the proliferation of mobile devices, creating responsive websites has become essential for providing good user experiences across all platforms.</p>
+
+            <p>Responsive design uses flexible layouts, images, and CSS media queries to adapt the presentation of content based on the device's characteristics, primarily screen width, height, and orientation.</p>
+
+            <div class="highlight">
+                <p>The mobile-first approach is now considered best practice, where you design for mobile devices first and then enhance for larger screens using media queries.</p>
+            </div>
+
+            <p>Key responsive design techniques include:</p>
+            <pre><code>/* Flexible Grid System */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col {
+    flex: 1;
+    padding: 0 15px;
+    min-width: 250px;
+}
+
+/* Responsive Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+    
+    .col {
+        flex: 100%;
+        margin-bottom: 20px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .nav-menu {
+        display: none;
+    }
+    
+    .mobile-menu {
+        display: block;
+    }
+}</code></pre>
+
+            <p>Modern CSS layout methods for responsive design:</p>
+            <ul>
+                <li>Flexbox for one-dimensional layouts and component alignment</li>
+                <li>CSS Grid for two-dimensional layouts and complex designs</li>
+                <li>Media queries for device-specific styling breakpoints</li>
+                <li>Relative units like percentages, <code>em</code>, <code>rem</code>, and viewport units</li>
+                <li>Mobile-first methodology for progressive enhancement</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Best_Practices">
+            <header>Best Practices</header>
+            <p>Following best practices in HTML and CSS development ensures your code is maintainable, accessible, and performs well across different browsers and devices. These practices have evolved from years of web development experience and industry standards.</p>
+
+            <p>Good HTML and CSS practices not only improve code quality but also enhance SEO, accessibility, and user experience. They make collaboration easier and reduce maintenance costs over time.</p>
+
+            <div class="code-example">
+                <h4>HTML Best Practices:</h4>
+                <pre><code>&lt;!-- Use semantic HTML5 elements --&gt;
+&lt;article&gt;
+    &lt;header&gt;
+        &lt;h1&gt;Article Title&lt;/h1&gt;
+        &lt;time datetime="2024-01-15"&gt;January 15, 2024&lt;/time&gt;
+    &lt;/header&gt;
+    &lt;p&gt;Article content with proper structure.&lt;/p&gt;
+&lt;/article&gt;
+
+&lt;!-- Always include alt text for images --&gt;
+&lt;img src="chart.png" alt="Sales data showing 25% growth"&gt;
+
+&lt;!-- Use proper form labels --&gt;
+&lt;label for="email"&gt;Email Address:&lt;/label&gt;
+&lt;input type="email" id="email" name="email" required&gt;</code></pre>
+            </div>
+
+            <p>CSS organization and naming conventions:</p>
+            <pre><code>/* Use meaningful class names */
+.navigation-menu { }
+.article-content { }
+.sidebar-widget { }
+
+/* Group related styles */
+/* ==========================================================================
+   Navigation Styles
+   ========================================================================== */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__item {
+    padding: 10px 15px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav__link--active {
+    font-weight: bold;
+    color: #e74c3c;
+}</code></pre>
+
+            <p>Essential best practices include:</p>
+            <ul>
+                <li>Write semantic HTML that describes content meaning, not appearance</li>
+                <li>Use external CSS files to separate content from presentation</li>
+                <li>Follow consistent naming conventions like BEM or SMACSS</li>
+                <li>Optimize images and use appropriate file formats</li>
+                <li>Test across different browsers and devices regularly</li>
+                <li>Validate your HTML and CSS code for errors</li>
+                <li>Include proper meta tags for SEO and social sharing</li>
+                <li>Ensure accessibility with proper ARIA attributes and keyboard navigation</li>
+                <li>Use version control systems like Git for code management</li>
+                <li>Minify and compress files for production deployment</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
