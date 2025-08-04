@@ -46,5 +46,5 @@ Feel free to reference or reuse for educational purposes.
 ## 🙋‍♂️ Connect With Me
 
 - 🔗 [LinkedIn – Digvijay Kumar Singh](https://www.linkedin.com/in/digvijaykumarsingh)  
-- 🐦 [Twitter / X – @DigvijaySi29958](https://x.com/DigvijaySi29958)  
+- 🐦 [X – @DigvijaySi29958](https://x.com/DigvijaySi29958)  
 - 📬 Email: chauhandigvijay669@gmail.com
