@@ -37,11 +37,10 @@ To practice and showcase real-world responsive UI building skills using only **H
 
 ## 🙌 Author
 
-Made with 💙 by Digvijay Kumar Singh(https://www.linkedin.com/in/digvijaykumarsingh/)  
-Twitter: chauhandigvijay1(https://x.com/DigvijaySi29958)
+Made with 💙 by Digvijay Kumar Singh
 
----
+[LinkedIn](https://www.linkedin.com/in/digvijaykumarsingh/) 
 
-## 📄 License
+[Twitter](https://x.com/DigvijaySi29958)
 
-This project is open-sourced.
+Email: chauhandigvijay669@gmail.com
