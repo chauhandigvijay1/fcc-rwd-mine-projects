@@ -1,5 +1,11 @@
 # 🧠 Technical Documentation Page – Responsive Web Design Project
 
+![HTML5](https://img.shields.io/badge/HTML5-Markup-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Documentation](https://img.shields.io/badge/Technical-Documentation-FF9800?style=for-the-badge)
+![Responsive](https://img.shields.io/badge/Responsive-Mobile%20Friendly-00C853?style=for-the-badge)
+![Netlify](https://img.shields.io/badge/Netlify-Live%20Demo-8E44AD?style=for-the-badge&logo=netlify&logoColor=white)
+
 This is the **Technical Documentation Page** built as part of the [freeCodeCamp Responsive Web Design Certification](https://www.freecodecamp.org/learn/). It is designed to resemble real-world developer documentation with a structured layout, accessible navigation, and responsive design — using only **HTML5** and **CSS3**.
 
 ---
