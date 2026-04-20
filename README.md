@@ -1,5 +1,11 @@
 # 💻 Responsive Web Design Projects – Custom Implementations
 
+![HTML5](https://img.shields.io/badge/HTML5-Markup-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Responsive Design](https://img.shields.io/badge/Responsive-Mobile%20First-00C853?style=for-the-badge)
+![freeCodeCamp](https://img.shields.io/badge/freeCodeCamp-RWD%20Projects-FF9800?style=for-the-badge)
+![Netlify](https://img.shields.io/badge/Netlify-Live%20Projects-8E44AD?style=for-the-badge&logo=netlify&logoColor=white)
+
 This repository contains my **custom-built versions** of the 4 required projects for the  
 ✅ freeCodeCamp's [Responsive Web Design Certification](https://www.freecodecamp.org/learn/responsive-web-design/).  
 Each project is created from scratch with original content, responsive layout, and clean structure.
